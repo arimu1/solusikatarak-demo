@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "678940640059",
+    "firebase_url": "https://solusikatarak-1527388704633.firebaseio.com",
+    "project_id": "solusikatarak-1527388704633",
+    "storage_bucket": "solusikatarak-1527388704633.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678940640059:android:aa66be2214c9c7ee",
+        "android_client_info": {
+          "package_name": "com.solusikatarak.solusikatarak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678940640059-5gqa720uldl23mrmc073hmek1s5l24e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvYT0Ar3A7m1OrWua5PKAK_nreP45hCbA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

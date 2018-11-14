@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#be3822</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="green">#388e3c</color>
+    <color name="nocolors">#0000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green2">#00bfa5</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+    <color name="backcolor">#f7e9ba</color>
+
+    <!--Dashboard-->
+    <color name="dashboardpasien">#22a9d8</color>
+    <color name="dashboardrelawan">#64c2de</color>
+    <color name="dashboarddokter">#ffc109</color>
+    <color name="dashboardcolor">#f1f2f7</color>
+    <color name="orangesk">#fec10f</color>
+
+    <!--Status-->
+    <color name="belumoperasi">#dc3646</color>
+    <color name="checkup">#ffc109</color>
+    <color name="operasi">#027cff</color>
+    <color name="sudahdibayar">#2aa846</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

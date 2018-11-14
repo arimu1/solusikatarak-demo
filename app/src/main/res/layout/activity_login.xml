@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    android:orientation="vertical"
+    tools:context=".activities.LoginActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/solusikataraklogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:text="Silahkan masuk dengan no.HP Anda yang terdaftar." />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/phone" />
+
+        <EditText
+            android:id="@+id/etKodenegara"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="+62" />
+
+        <EditText
+            android:id="@+id/etNomorhp"
+            android:inputType="phone"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:hint="No. Hp"  />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btMasuk"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="MASUK"
+        android:textColor="@color/black" />
+
+    <ProgressBar
+        android:id="@+id/pbLogin"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum punya akun?"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btDaftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/nocolors"
+            android:text="DAFTAR"
+            android:textColor="@color/green" />
+
+    </LinearLayout>
+
+</LinearLayout>

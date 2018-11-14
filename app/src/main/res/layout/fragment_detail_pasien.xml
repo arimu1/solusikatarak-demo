@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.DetailPasienFragment">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ivKtp"
+                    android:src="@color/dashboardpasien"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="26dp" />
+
+                <ImageView
+                    android:id="@+id/ivBpjs"
+                    android:src="@color/dashboardpasien"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="26dp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+              <LinearLayout
+                  android:layout_margin="@dimen/activity_vertical_margin"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+                  <TextView
+                      android:textStyle="bold"
+                      android:textSize="16sp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Nama"/>
+                  <TextView
+                      android:id="@+id/tvNama"
+                      android:layout_marginBottom="5dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Nawfal Alim F"/>
+                  <TextView
+                      android:textStyle="bold"
+                      android:textSize="16sp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="NIK"/>
+                  <TextView
+                      android:id="@+id/tvNik"
+                      android:layout_marginBottom="5dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="360494949494994"/>
+                  <TextView
+                      android:textStyle="bold"
+                      android:textSize="16sp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Nomor HP"/>
+                  <TextView
+                      android:id="@+id/tvNomorhp"
+                      android:layout_marginBottom="5dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="081283838383"/>
+                  <TextView
+                      android:textStyle="bold"
+                      android:textSize="16sp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Alamat"/>
+                  <TextView
+                      android:id="@+id/tvAlamat"
+                      android:layout_marginBottom="5dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Cengger Ayam, Jawa Timur, Malang, Lowokwaru, Lowokwaru"/>
+                  <TextView
+                      android:textStyle="bold"
+                      android:textSize="16sp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Jenis Kelamin"/>
+                  <TextView
+                      android:id="@+id/tvJeniskelamin"
+                      android:layout_marginBottom="5dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Pria"/>
+                  <TextView
+                      android:textStyle="bold"
+                      android:textSize="16sp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Tempat Tanggal Lahir"/>
+                  <TextView
+                      android:id="@+id/tvTtl"
+                      android:layout_marginBottom="5dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Bontang, 3 Desember 1995"/>
+                  <TextView
+                      android:textStyle="bold"
+                      android:textSize="16sp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Jadwal"/>
+                  <TextView
+                      android:id="@+id/tvJadwal"
+                      android:layout_marginBottom="5dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Selasa, 13.00-15.00"/>
+              </LinearLayout>
+                </ScrollView>
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/floatedit"
+                    app:backgroundTint="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="21dp"
+                    android:layout_marginEnd="21dp"
+                    android:src="@mipmap/edit" />
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/floatmap"
+                    app:backgroundTint="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginEnd="21dp"
+                    android:src="@mipmap/map" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+</FrameLayout>

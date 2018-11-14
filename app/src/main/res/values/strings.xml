@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SolusiKatarak</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="sendtoken">Password RAHASIA anda adalah</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addpasien">Tambah Pasien</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="title_notifications">Notifikasi</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
+</resources>
